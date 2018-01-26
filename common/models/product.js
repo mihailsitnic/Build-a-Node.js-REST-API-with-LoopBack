@@ -10,4 +10,11 @@ module.exports = function(Product) {
         // TODO
         callback(null, result);
     };
+    // Validate minnimal length of the name
+    Product.validatesLengthOf('name', {
+        min: 3,
+        message: {
+            min: 'Name should be least 3 characters',
+        }
+    });
 };

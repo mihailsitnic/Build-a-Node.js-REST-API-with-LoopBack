@@ -5,7 +5,7 @@
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1,
-    "Product": 2
+    "Product": 7
   },
   "models": {
     "User": {},
@@ -14,7 +14,12 @@
     "RoleMapping": {},
     "Role": {},
     "Product": {
-      "1": "{\"name\":\"Coffe\",\"price\":250,\"id\":1}"
+      "1": "{\"name\":\"Coffe\",\"price\":250,\"id\":1}",
+      "2": "{\"name\":\"ab\",\"price\":0,\"id\":2}",
+      "3": "{\"name\":\"ab\",\"price\":0,\"id\":3}",
+      "4": "{\"name\":\"ab\",\"price\":0,\"id\":4}",
+      "5": "{\"name\":\"abc\",\"price\":0,\"id\":5}",
+      "6": "{\"name\":\"ab\",\"price\":0,\"id\":6}"
     }
   }
 }
